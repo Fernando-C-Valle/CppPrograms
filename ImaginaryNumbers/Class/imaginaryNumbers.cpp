@@ -18,6 +18,7 @@ int main(){
 	std::cout << "Addition" << std::endl;
 	result = number1 + number2;
 	result.display(true);
+	std::cout << "MODULUS: " << result.mod() << std::endl;
 	
 	std::cout << "Substraction" << std::endl;
 	result = number1 - number2;
