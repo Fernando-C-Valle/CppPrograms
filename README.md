@@ -11,8 +11,9 @@ class as member methods.
 ## Execution And Working
 In order to use this program just include the libraries:
 
-\#include <iostream>
-\#include <iomanip>
+iostream
+
+iomanip
 
 As well as the project's library as follows:
 
