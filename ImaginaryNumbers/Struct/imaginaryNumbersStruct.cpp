@@ -60,6 +60,8 @@ int main(){
 	std::cout << "Substraction" << std::endl;
 	result = number7 - number8;
 	result.display(true);
+
+	std::cout << "Result Modulus: " << result.mod() << std::endl;
 	
 	
 	return 0;

@@ -1,6 +1,7 @@
 #ifndef _IMAGINARY_H_
 #define _IMAGINARY_H_
 
+#include <cmath>
 
 //Define the ImaginaryNumbers Struct
 struct ImagNumber{
@@ -19,6 +20,12 @@ struct ImagNumber{
 		newNumber.real = real - rhs.real;
 		newNumber.imaginary = imaginary - rhs.imaginary;
 		return newNumber;
+	}
+	double mod(){
+		int realPartSquare = (real*real);
+		int imaginaryPartSquare = (imaginary * imaginary);
+		double modulus = sqrt(realPartSquare + imaginaryPartSquare);
+		return modulus;
 	}
 	//Display both real and imaginary parts
 	void display(bool flag=false){
