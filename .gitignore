@@ -1,3 +1,5 @@
 polynomialDerivatives
 imaginaryNumbersStruct
 imaginaryNumbers
+*.o
+hex
